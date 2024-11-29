@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "clip-studio-paint-layers-extractor"
+version = "0.1.0"
+description = "A Python library to extract and manipulate Clip Studio Paint (.clip) files"
+license = "MIT"
+authors = ["coolstorybro <quentin@flagcat.studio>"]
+readme = "README.md"
+packages = [
+    { include = "clipstudio" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^11.0.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
