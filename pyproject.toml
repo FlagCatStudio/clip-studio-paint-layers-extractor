@@ -6,7 +6,7 @@ license = "MIT"
 authors = ["coolstorybro <quentin@flagcat.studio>"]
 readme = "README.md"
 packages = [
-    { include = "clipstudio" }
+    { include = "src" }
 ]
 
 [tool.poetry.dependencies]
